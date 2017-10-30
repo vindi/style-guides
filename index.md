@@ -1,8 +1,8 @@
 # Vindi Style Guides
 
-Um guia de estilo é um tipo manual que determina regras e convenções para escrita de código em determinada linguagem de programação, dentro de uma organização, projeto ou comunidade.
+Um guia de estilo é um tipo de manual que determina regras e convenções para escrita de código em determinada linguagem de programação, dentro de uma organização, projeto ou comunidade.
 
-É comum encontrar diversas formas de escrever código que gera o mesmo resultado, porém utilizamos guias de estilo para padronizar a forma de escrita e reduzir o esforço de compreensão.
+É comum encontrar diversas formas de escrever código que gera o mesmo resultado lógico, porém utilizamos guias de estilo para padronizar a forma de escrita e reduzir o esforço de compreensão.
 
 Na Vindi, utilizamos guias de estilo que devem ser aplicados tanto nos projetos internos quanto nos de projetos de código aberto.
 
