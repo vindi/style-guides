@@ -56,6 +56,11 @@ Style/AsciiComments:
 Style/Lambda:
   EnforcedStyle: literal
 
+# RSPEC #######################################################################
+
+RSpec/ContextWording:
+  Enabled: false
+
 # OUTROS ######################################################################
 
 Bundler/OrderedGems:
