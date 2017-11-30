@@ -68,3 +68,6 @@ Bundler/OrderedGems:
 
 Layout/MultilineMethodCallIndentation:
   Enabled: false
+
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
