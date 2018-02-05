@@ -56,6 +56,9 @@ Style/AsciiComments:
 Style/Lambda:
   EnforcedStyle: literal
 
+Style/GuardClause:
+  Enabled: false
+
 # RSPEC #######################################################################
 
 RSpec/ContextWording:
