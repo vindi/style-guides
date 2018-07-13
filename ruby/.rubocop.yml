@@ -40,7 +40,7 @@ Metrics/ModuleLength:
   Max: 250
 
 Metrics/LineLength:
-  Max: 120
+  Max: 100
 
 # STYLES ######################################################################
 
