@@ -39,6 +39,9 @@ Metrics/MethodLength:
 Metrics/ModuleLength:
   Max: 250
 
+Metrics/LineLength:
+  Max: 100
+
 # STYLES ######################################################################
 
 Style/FrozenStringLiteralComment:
