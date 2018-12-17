@@ -15,6 +15,9 @@ detectors:
       - "/^.$/"
       - "/[0-9]$/"
       - "/^_/"
+  UncommunicativeModuleName:
+    accept:
+      - "^API::V1.*$"
   UncommunicativeVariableName:
     reject:
       - "/^.$/"
