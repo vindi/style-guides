@@ -53,6 +53,3 @@ directories:
   "app/models":
     InstanceVariableAssumption:
       enabled: false
-  "app/services":
-    Attribute:
-      enabled: false
