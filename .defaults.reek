@@ -5,7 +5,7 @@ detectors:
   MissingSafeMethod:
     enabled: false
   TooManyStatements:
-    max_statements: 10
+    max_statements: 6
   UncommunicativeMethodName:
     reject:
       - "/^[a-z]$/"
@@ -25,7 +25,7 @@ detectors:
   UtilityFunction:
     enabled: false
   LongParameterList:
-    enabled: false
+    enabled: true
   DuplicateMethodCall:
     max_calls: 2
   IrresponsibleModule:
@@ -43,12 +43,7 @@ detectors:
 
 directories:
   "app/controllers":
-    IrresponsibleModule:
-      enabled: false
     InstanceVariableAssumption:
-      enabled: false
-  "app/helpers":
-    IrresponsibleModule:
       enabled: false
   "app/mailers":
     InstanceVariableAssumption:
