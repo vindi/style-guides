@@ -39,7 +39,7 @@ detectors:
   ControlParameter:
     enabled: false
   UnusedPrivateMethod:
-    enabled: false
+    enabled: true
 
 directories:
   "app/controllers":
