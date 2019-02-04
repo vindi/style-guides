@@ -67,6 +67,12 @@ Style/GuardClause:
 RSpec/ContextWording:
   Enabled: false
 
+RSpec/ExampleLength:
+  Max: 10
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
 # OUTROS ######################################################################
 
 Bundler/OrderedGems:
