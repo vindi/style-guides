@@ -10,8 +10,8 @@ Na Vindi, utilizamos guias de estilo que devem ser aplicados tanto nos projetos 
 
 Quando possível, é preferível declarar estas regras utilizando sintaxe compatível com ferramentas de análise de código (também conhecidas como _linters_). Dessa forma podemos utilizar ferramentas que verificam estas regras automaticamente, eliminando discussões desnecessárias no momento em que alterações de código forem submetidas via pull request.
 
-A ferramenta de análise estática oficial da Vindi é o [Ebert](https://ebertapp.io), que deve ser configurada em todos os projetos da empresa.
-Os arquivos de configuração dos linters devem ser mantidos na raiz deste repositório para serem lidos através da configuração `styleguide: vindi/style-guides` no `.ebert.yml` de cada projeto.
+A ferramenta de análise estática oficial da Vindi é o [CodeClimate](https://codeclimate.com/), que deve ser configurada em todos os projetos da empresa.
+Os arquivos de configuração dos linters devem ser mantidos na raiz deste repositório para serem lidos através da configuração `fetch` no `.codeclimate.yml` de cada projeto.
 
 ## Linguagens
 
