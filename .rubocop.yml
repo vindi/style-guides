@@ -83,3 +83,12 @@ Layout/MultilineMethodCallIndentation:
 
 Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
+
+Layout/Tab:
+  Enabled: true
+
+Layout/TrailingBlankLines:
+  Enabled: true
+
+Layout/TrailingWhitespace:
+  Enabled: true
