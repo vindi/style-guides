@@ -7,7 +7,7 @@ detectors:
   TooManyStatements:
     max_statements: 6
   TooManyMethods:
-    max_methods: 20
+    max_methods: 30
   UncommunicativeMethodName:
     reject:
       - "/^[a-z]$/"
