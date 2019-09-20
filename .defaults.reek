@@ -20,7 +20,7 @@ detectors:
   UncommunicativeModuleName:
     accept:
       - "^API::V1.*$"
-      - "^BatchHandler::Exporter.*$"
+      - "/[0-9]$/"
   UncommunicativeVariableName:
     reject:
       - "/^.$/"
