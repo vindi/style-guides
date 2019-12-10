@@ -19,6 +19,9 @@ Rails/UnknownEnv:
     - staging
     - sandbox
 
+Rails/Date:
+  Enabled: true
+
 # METRICS #####################################################################
 
 Metrics/AbcSize:
