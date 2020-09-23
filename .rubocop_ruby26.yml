@@ -1,0 +1,97 @@
+require: rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 2.6
+  DisplayCopNames: true
+  Exclude:
+    - 'db/schema.rb'
+
+# RAILS #######################################################################
+
+Rails:
+  Enabled: true
+
+Rails/UnknownEnv:
+  Environments:
+    - development
+    - test
+    - production
+    - staging
+    - sandbox
+
+Rails/Date:
+  Enabled: true
+
+# METRICS #####################################################################
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/BlockNesting:
+  Max: 4
+
+Metrics/ClassLength:
+  Max: 250
+
+Metrics/MethodLength:
+  Max: 30
+
+Metrics/ModuleLength:
+  Max: 250
+
+Metrics/LineLength:
+  Max: 100
+
+# STYLES ######################################################################
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/Lambda:
+  EnforcedStyle: literal
+
+Style/GuardClause:
+  Enabled: false
+
+# RSPEC #######################################################################
+
+RSpec/ContextWording:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Max: 7
+
+RSpec/MultipleExpectations:
+  Max: 3
+
+# OUTROS ######################################################################
+
+Bundler/OrderedGems:
+  Enabled: false
+
+Layout/MultilineMethodCallIndentation:
+  Enabled: false
+
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Layout/Tab:
+  Enabled: true
+
+Layout/TrailingBlankLines:
+  Enabled: true
+
+Layout/TrailingWhitespace:
+  Enabled: true
